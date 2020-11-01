@@ -1,5 +1,5 @@
 let form = document.getElementById("addUniversidadeForm")
-let baseUrl = "https://nossas-universidades-back.herokuapp.com/"
+let baseUrl = "https://nossas-universidades.herokuapp.com/"
 form.addEventListener("submit", async (formVal) => {
     formVal.preventDefault()
     console.log(formVal)

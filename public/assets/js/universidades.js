@@ -1,5 +1,5 @@
 async function getUniversidade(regiao) {
-    let baseUrl = "https://nossas-universidades-back.herokuapp.com/"
+    let baseUrl = "https://nossas-universidades.herokuapp.com/"
     let response = await fetch(baseUrl + `universidade?regiao=${regiao}`, {
         method: "GET",
     })
