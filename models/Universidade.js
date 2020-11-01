@@ -32,7 +32,11 @@ const UniversidadeSchema = new mongoose.Schema({
         type: Array
     },
     UF: {
-        type: Strin,
+        type: String,
+        required: true
+    },
+    regiao: {
+        type: Number,
         required: true
     }
 });
