@@ -1,0 +1,48 @@
+.universidades-row img {
+  height: 200px;
+  width: 100%;
+}
+
+.universidades-row .item {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.universidades-row .item-card {
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.universidades-row .item-card-title {
+  font-size: 15px;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.universidades-row .item-card-title i {
+  font-size: 15px;
+  transition: 1s;
+  cursor: pointer;
+  color: #ffa710
+}
+
+.universidades-row .card:hover {
+  transform: scale(1.05);
+  box-shadow: 10px 10px 0px #2bdbdc;
+  border: 5px solid #0067f4;
+}
+
+.universidades-row .card {
+  width: 280px;
+  height: 350px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.universidades-row {
+  height: 100% !important;
+}
+
+.portfolio-area h3 {
+  margin: 5px;
+}
