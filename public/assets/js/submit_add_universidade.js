@@ -23,7 +23,7 @@ form.addEventListener("submit", async (formVal) => {
         if (response.status === 200) {
             let resJson = await response.json();
             console.log(resJson)
-            clearForm(form)
+            // clearForm(form)
             successSubmit()
         } else {
             throw new Error("Não retornou 200");
@@ -33,7 +33,7 @@ form.addEventListener("submit", async (formVal) => {
 
 
     } catch (error) {
-        clearForm(form)
+        // clearForm(form)
         console.error(error)
         errorSubmit()
     }
