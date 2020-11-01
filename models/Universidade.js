@@ -30,6 +30,10 @@ const UniversidadeSchema = new mongoose.Schema({
     },
     cursos: {
         type: Array
+    },
+    UF: {
+        type: Strin,
+        required: true
     }
 });
 
