@@ -11,7 +11,7 @@ var config = require("./config");
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
-var usersRouter = require('./routes/add');
+var addUniversidadeRouter = require('./routes/add');
 
 var app = express();
 
@@ -59,6 +59,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
+app.use('/addUniversidade', addUniversidadeRouter);
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
