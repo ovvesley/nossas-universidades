@@ -48,7 +48,9 @@ Os próximos passos é informar sobre cursos, **modo de ingresso**, **nota de co
 
 ### Agradecimentos:
 
-Um agradecimento especial a todos os colaboradores que batalhou para inserir as universidades no banco de dados.
+
+Um agradecimento especial a todos os colaboradores que batalharam para inserir as universidades no banco de dados.
+
 
 <div align=center>
 
