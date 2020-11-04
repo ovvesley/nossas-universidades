@@ -26,7 +26,7 @@
 
 ### Sobre Nossas Universidades:
 <p>
-No brasil existe mais de <b>100 universidades públicas</b> espalhadas por todo território; fazer com que as pessoas saibam sobre essas universidades é o primeiro passo para começar a trabalhar em uma pátria que educada.<b>Nossas Universidades é uma tentativa disso</b>.
+No brasil existe mais de <b>100 universidades públicas</b> espalhadas por todo território; fazer com que as pessoas saibam sobre essas universidades é o primeiro passo para começar a trabalhar em um país que educação é comum e não exceção.<b>Nossas Universidades é uma tentativa disso</b>.
 </p>
 
 ### Objetivos:
