@@ -6,7 +6,7 @@
   
   <h3 align="center">Nossas Universidades</h3>
   <p align="center">
-    Nossas Universidades é um projeto <b>Open Source</b> que visa listar <b>todas as nossas universidades públicas no Brasil</b> em uma página.
+    Nossas Universidades é um projeto <b>Open Source</b> que visa listar <b>todas as nossas universidades públicas do Brasil</b> em uma página.
     <br>
     <a href="https://reponame/issues/new?template=bug.md">Algum Problema?</a>
     ·
