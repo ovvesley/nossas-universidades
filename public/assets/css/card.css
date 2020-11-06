@@ -13,6 +13,56 @@
   cursor: pointer;
 }
 
+.universidades-row .state-norte {
+  width: 3.5rem;
+  border-radius: 4rem;
+  display: inline-flex;
+  justify-content: space-around;
+  padding: .17rem;
+  background: #008000;
+  color:#f4f4f4;
+}
+
+.universidades-row .state-nordeste {
+  width: 3.5rem;
+  border-radius: 4rem;
+  display: inline-flex;
+  justify-content: space-around;
+  padding: .17rem;
+  background: #ffa710;
+  color:#f4f4f4;
+}
+
+.universidades-row .state-centro-oeste {
+  width: 3.5rem;
+  border-radius: 4rem;
+  display: inline-flex;
+  justify-content: space-around;
+  padding: .17rem;
+  background: #A0522D;
+  color:#f4f4f4;
+}
+
+.universidades-row .state-sudeste {
+  width: 3.5rem;
+  border-radius: 4rem;
+  display: inline-flex;
+  justify-content: space-around;
+  padding: .17rem;
+  background: #DC143C;
+  color:#f4f4f4;
+}
+
+.universidades-row .state-sul {
+  width: 3.5rem;
+  border-radius: 4rem;
+  display: inline-flex;
+  justify-content: space-around;
+  padding: .17rem;
+  background: #40E0D0;
+  color:#f4f4f4;
+}
+
 .universidades-row .item-card-title {
   font-size: 15px;
   transition: 1s;
