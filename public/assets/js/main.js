@@ -131,7 +131,7 @@ $(function () {
             console.log(universidades)
 
             universidades.filter(val => filterValue === "NO" ? true : val.UF === filterValue).forEach(uni => {
-                var card = createCardUniversidade(uni.UF, uni.nome)
+                var card = createCardUniversidade(uni.UF, uni.nome, "norte")
                 norteRow.appendChild(card)
 
             })
@@ -148,7 +148,7 @@ $(function () {
             console.log(universidades)
 
             universidades.filter(val => filterValue === "ND" ? true : val.UF === filterValue).forEach(uni => {
-                var card = createCardUniversidade(uni.UF, uni.nome)
+                var card = createCardUniversidade(uni.UF, uni.nome, "nordeste")
                 nordesteRow.appendChild(card)
 
             })
@@ -167,7 +167,7 @@ $(function () {
             console.log(universidades)
 
             universidades.filter(val => filterValue === "CO" ? true : val.UF === filterValue).forEach(uni => {
-                var card = createCardUniversidade(uni.UF, uni.nome)
+                var card = createCardUniversidade(uni.UF, uni.nome, "centro-oeste")
                 centroOesteRow.appendChild(card)
 
             })
@@ -184,7 +184,7 @@ $(function () {
             console.log(universidades)
 
             universidades.filter(val => filterValue === "SD" ? true : val.UF === filterValue).forEach(uni => {
-                var card = createCardUniversidade(uni.UF, uni.nome)
+                var card = createCardUniversidade(uni.UF, uni.nome, "sudeste")
                 sudesteRow.appendChild(card)
             })
         })
@@ -200,7 +200,7 @@ $(function () {
             console.log(universidades)
 
             universidades.filter(val => filterValue === "SU" ? true : val.UF === filterValue).forEach(uni => {
-                var card = createCardUniversidade(uni.UF, uni.nome)
+                var card = createCardUniversidade(uni.UF, uni.nome, "sul")
                 sulRow.appendChild(card)
             })
         })
